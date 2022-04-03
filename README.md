@@ -1,2 +1,3 @@
 # Welcome
-This is beta canton website. Under construction
+
+This is beta canton website. Under construct...
