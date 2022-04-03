@@ -1,2 +1,2 @@
-# website
-My personal website
+# Welcome
+This is beta canton website. Under construction
