@@ -1,5 +1,5 @@
 /* main css starts */
-/* color: light #5BA698; dark #014034*/
+/* color: light #026773; dark #014034*/
 a:link {
   color: #e07619;
 }
@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-  color: #5ba698;
+  color: #026773;
   font-family: "Lora";
   font-size: 1.8em;
   font-display: swap;
@@ -96,7 +96,7 @@ p {
 
 strong {
   font-size: 1.2em;
-  color: #5ba698;
+  color: #026773;
 }
 
 em {
@@ -107,12 +107,12 @@ em {
 /* top */
 .top-main {
   height: 500px;
-  background: #4ab1d1ff;
+  background: #026773;
 }
 
 .top {
   height: 300px;
-  background: #4ab1d1ff;
+  background: #026773;
 }
 
 ul.grey {
@@ -135,23 +135,23 @@ ol {
 
 /*override color schemes for the other pages*/
 #top-proj {
-  background: #5ba698;
+  background: #026773;
 }
 
 #top-fwork {
-  background: #5ba698;
+  background: #026773;
 }
 
 #top-pub {
-  background: #5ba698;
+  background: #026773;
 }
 
 #top-teaching {
-  background: #5ba698;
+  background: #026773;
 }
 
 #top-gallery {
-  background: #5ba698;
+  background: #026773;
 }
 
 /* top ends */
@@ -190,7 +190,7 @@ ol {
 }
 
 .footer {
-  background: #5ba698;
+  background: #026773;
   text-align: center;
   margin: auto;
   position: relative;
@@ -205,23 +205,23 @@ ol {
 
 /* override footer color for other pages */
 #footer-proj {
-  background: #5ba698;
+  background: #026773;
 }
 
 #footer-fwork {
-  background: #5ba698;
+  background: #026773;
 }
 
 #footer-pub {
-  background: #5ba698;
+  background: #026773;
 }
 
 #footer-teaching {
-  background: #5ba698;
+  background: #026773;
 }
 
 #footer-gallery {
-  background: #5ba698;
+  background: #026773;
 }
 
 .center-li {
