@@ -1,4 +1,4 @@
-Home
+# Home
 
 I am a Brazilian Evolutionary Biologist and a PhD candidate at Louisiana State University. I study evolution of plumage coloration, with a focus in structural colors. For my research I employ a combination of techniques that includes Spectrometry, Electron Microscopy and Molecular Data.
 
