@@ -144,28 +144,6 @@ ol {
   font-size: 1em;
 }
 
-/*override color schemes for the other pages*/
-
-#top-proj {
-  background: #026773;
-}
-
-#top-fwork {
-  background: #026773;
-}
-
-#top-pub {
-  background: #026773;
-}
-
-#top-teaching {
-  background: #026773;
-}
-
-#top-gallery {
-  background: #026773;
-}
-
 /* top ends */
 /* override bootstrap button settings */
 .btn {
@@ -204,37 +182,13 @@ ol {
 .footer {
   background: #026773;
   text-align: center;
-  margin: auto;
-  position: absolute;
-  width: 80%;
-  height: 70px;
+  width: 100%;
+  height: 80px;
   bottom: 0;
   left: 0;
   color: white;
   padding: 0px;
-  grid-area: footer;
-  vertical-align: top;
-}
-
-/* override footer color for other pages */
-#footer-proj {
-  background: #026773;
-}
-
-#footer-fwork {
-  background: #026773;
-}
-
-#footer-pub {
-  background: #026773;
-}
-
-#footer-teaching {
-  background: #026773;
-}
-
-#footer-gallery {
-  background: #026773;
+  /* vertical-align: top; */
 }
 
 .center-li {
