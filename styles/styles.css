@@ -1,0 +1,269 @@
+/* main css starts */
+/* color: light #5BA698; dark #014034*/
+a:link {
+  color: #e07619;
+}
+
+/* visited link */
+a:visited {
+  color: #014034;
+}
+
+/* mouse over link */
+a:hover {
+  color: #014034;
+}
+
+/* main body link */
+#a-main:link {
+  color: #014034;
+}
+
+#a-main:visited {
+  color: #014034;
+}
+
+#a-main:hover {
+  color: #2994f2;
+}
+
+/* footer link */
+.a-footer:link {
+  color: #014034;
+}
+
+.a-footer:hover {
+  color: white;
+}
+
+/* end */
+
+body {
+  background: white;
+  font-family: "Montserrat";
+  font-display: swap;
+}
+
+b {
+  font-size: 1.2em;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: #5ba698;
+  font-family: "Lora";
+  font-size: 1.8em;
+  font-display: swap;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-family: "Lora";
+  color: grey;
+  font-display: swap;
+}
+
+.h3-pub {
+  margin-top: 10px;
+  font-size: 1.3em;
+}
+
+hr {
+  border-color: #f2d5c4;
+  border-style: dashed;
+  width: 40%;
+  border-width: 1.5px;
+}
+
+/* hr override ends */
+p {
+  padding: 0px;
+  margin: 0;
+  display: block;
+  text-align: center;
+  color: #808080;
+  font-size: 1em;
+}
+
+/* for publication marging */
+.pub {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+strong {
+  font-size: 1.2em;
+  color: #5ba698;
+}
+
+em {
+  font-style: normal;
+  font-size: 1.2em;
+}
+
+/* top */
+.top-main {
+  height: 500px;
+  background: #4ab1d1ff;
+}
+
+.top {
+  height: 300px;
+  background: #4ab1d1ff;
+}
+
+ul.grey {
+  margin-left: 0;
+  padding-left: 40px;
+  list-style-type: circle;
+  list-style-position: outside;
+  color: #808080;
+  font-size: 1em;
+}
+
+ol {
+  margin-left: 0;
+  padding-left: 40px;
+  list-style-type: circle;
+  list-style-position: outside;
+  color: #808080;
+  font-size: 1em;
+}
+
+/*override color schemes for the other pages*/
+#top-proj {
+  background: #5ba698;
+}
+
+#top-fwork {
+  background: #5ba698;
+}
+
+#top-pub {
+  background: #5ba698;
+}
+
+#top-teaching {
+  background: #5ba698;
+}
+
+#top-gallery {
+  background: #5ba698;
+}
+
+/* top ends */
+/* override bootstrap button settings */
+.btn {
+  margin-top: 5px;
+  border: 1px solid grey;
+  color: #014034;
+}
+
+.btn:link {
+  color: #014034;
+}
+
+.btn:visited {
+  color: #014034;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.sub-content {
+  max-width: 800px;
+  margin: auto;
+  padding: 12px;
+  text-align: center;
+}
+
+/* footer settings */
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer {
+  background: #5ba698;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  height: 180px;
+  bottom: 0;
+  left: 0;
+  color: white;
+  padding: 0px;
+  vertical-align: top;
+}
+
+/* override footer color for other pages */
+#footer-proj {
+  background: #5ba698;
+}
+
+#footer-fwork {
+  background: #5ba698;
+}
+
+#footer-pub {
+  background: #5ba698;
+}
+
+#footer-teaching {
+  background: #5ba698;
+}
+
+#footer-gallery {
+  background: #5ba698;
+}
+
+.center-li {
+  text-align: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 60px 20px 0px 20px;
+  padding-left: 0;
+  display: inline-block;
+  font-size: 0.9em;
+}
+
+.footer-ul {
+  padding-left: 0px;
+}
+
+.bottom-text {
+  height: 0;
+  margin: 35px 0px 0px 0px;
+  padding: 0;
+  color: #014034;
+  font-size: 0.8em;
+}
+
+/* main css ends */
+/* footer settings for small devices */
+@media screen and (max-width: 600px) {
+  .center-li {
+    display: list-item;
+    margin-top: 5px;
+    padding: 5px;
+  }
+
+  .pub {
+    font-size: 0.9em;
+  }
+
+  .footer {
+    height: 200px;
+  }
+
+  .bottom-text {
+    margin-top: 0;
+  }
+}
