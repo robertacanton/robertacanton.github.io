@@ -38,6 +38,14 @@ a:hover {
 
 /* end */
 
+.header-info {
+  position: absolute;
+  font-family: Oxygen, sans-serif;
+  font-size: 35px;
+  /* text-shadow: 10px 5px 25px rgba(15, 15, 15, 0.5); */
+  color: #ffff;
+}
+
 body {
   background: white;
   font-family: "Montserrat";
