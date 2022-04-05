@@ -40,7 +40,7 @@ a:hover {
 
 body {
   background: white;
-  font-family: "Montserrat";
+  font-family: 'Alegreya', serif;;
   font-display: swap;
 }
 
@@ -54,14 +54,14 @@ h1 {
 
 h2 {
   color: #026773;
-  font-family: "Lora";
+  font-family: 'Lato', sans-serif;
   font-size: 1.8em;
   font-display: swap;
 }
 
 h3 {
   font-size: 1.4em;
-  font-family: "Lora";
+  font-family: 'Lato', sans-serif;
   color: grey;
   font-display: swap;
 }
@@ -112,7 +112,7 @@ em {
 
 .header-info {
   /* position: absolute; */
-  font-family: "Montserrat";
+  font-family: 'Alegreya', serif;
   font-size: 20px;
   text-align: center;
   padding: 250px 0;
