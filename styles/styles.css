@@ -107,7 +107,7 @@ em {
 /* top */
 .header {
   height: 500px;
-  width: auto;
+  width: 100%;
   /* content: ""; */
   /* width: 100%; */
   background: -webkit-gradient(
@@ -119,7 +119,9 @@ em {
     ),
     -webkit-gradient(linear, left top, right top, from(rgba(15, 15, 15, 0.7)), to(rgba(15, 15, 15, 0.7))),
     url("../static/banner.webp");
-  /* background-repeat: no-repeat; */
+    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   /* background: #026773; */
 }
 
