@@ -54,8 +54,9 @@ h1 {
 }
 
 h2 {
-  color: #026773;
-  font-family: 'Lato', sans-serif;
+  color: #363e88;
+  font-family: 'Alegreya',
+    serif;
   font-size: 1.8em;
   font-display: swap;
 }
