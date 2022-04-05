@@ -40,7 +40,8 @@ a:hover {
 
 body {
   background: white;
-  font-family: 'Alegreya', serif;;
+  font-family: 'Alegreya', serif;
+  ;
   font-display: swap;
 }
 
@@ -110,16 +111,20 @@ em {
   width: 100%;
   /* content: ""; */
   /* width: 100%; */
-  background: -webkit-gradient(
-      linear,
+  /* background-color: #36096d; */
+  background-image:
+    -webkit-gradient(linear,
       left top,
       right top,
       from(rgba(54, 156, 243, 0.28)),
-      to(rgba(245, 36, 36, 0.23))
-    ),
-    -webkit-gradient(linear, left top, right top, from(rgba(15, 15, 15, 0.7)), to(rgba(15, 15, 15, 0.7))),
+      to(rgba(245, 36, 36, 0.23))),
+    -webkit-gradient(linear,
+      left top,
+      right top,
+      from(rgba(15, 15, 15, 0.7)),
+      to(rgba(15, 15, 15, 0.7))),
     url("../static/banner.webp");
-    background-position: center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   /* background: #026773; */
@@ -203,10 +208,12 @@ ol {
 }
 
 .footer {
-  background: #026773;
+  /* background: #026773; */
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
   text-align: center;
   width: 100%;
-  height: 80px;
+  height: 50px;
   bottom: 0;
   left: 0;
   color: white;
@@ -231,7 +238,7 @@ ol {
 .bottom-text {
   height: 0;
   /* margin: 35px 0px 0px 0px; */
-  padding: 30px;
+  padding: 20px;
   color: black;
   font-size: 0.8em;
 }
@@ -254,7 +261,7 @@ ol {
   }
 
   .footer {
-    height: 200px;
+    height: 50px;
   }
 
   .bottom-text {
