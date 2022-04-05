@@ -107,11 +107,19 @@ em {
 /* top */
 .header {
   height: 500px;
-  width: 1366px;
-  content: "";
+  width: auto;
+  /* content: ""; */
   /* width: 100%; */
-  background: url("../static/banner.webp");
-  background-repeat: no-repeat;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(54, 156, 243, 0.28)),
+      to(rgba(245, 36, 36, 0.23))
+    ),
+    -webkit-gradient(linear, left top, right top, from(rgba(15, 15, 15, 0.7)), to(rgba(15, 15, 15, 0.7))),
+    url("../static/banner.webp");
+  /* background-repeat: no-repeat; */
   /* background: #026773; */
 }
 
@@ -233,6 +241,10 @@ ol {
     display: list-item;
     margin-top: 5px;
     padding: 5px;
+  }
+
+  .header {
+    width: 100%;
   }
 
   .pub {
