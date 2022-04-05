@@ -214,7 +214,7 @@ ol {
 
 .bottom-text {
   height: 0;
-  margin: 35px 0px 0px 0px;
+  /* margin: 35px 0px 0px 0px; */
   padding: 50px;
   color: black;
   font-size: 0.8em;
