@@ -179,6 +179,13 @@ ol {
   position: relative;
 }
 
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+}
+
 /* top ends */
 /* override bootstrap button settings */
 .btn {
