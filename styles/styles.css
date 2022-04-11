@@ -1,17 +1,17 @@
 /* main css starts */
 /* color: light #026773; dark #014034*/
 a:link {
-  color: #e07619;
+  color: #808080;
 }
 
 /* visited link */
 a:visited {
-  color: #014034;
+  color: #363e88;
 }
 
 /* mouse over link */
 a:hover {
-  color: #014034;
+  color: #363e88;
 }
 
 /* main body link */
