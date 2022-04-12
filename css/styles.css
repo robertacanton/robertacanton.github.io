@@ -2,7 +2,6 @@
 /* color: light #026773; dark #014034*/
 a:link {
   color: #737373;
-  text-decoration: underline;
 }
 
 /* visited link */
@@ -35,6 +34,10 @@ a:hover {
 
 .a-footer:hover {
   color: white;
+}
+
+.link {
+  text-decoration: underline;
 }
 
 /* end */
