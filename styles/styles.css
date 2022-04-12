@@ -1,7 +1,8 @@
 /* main css starts */
 /* color: light #026773; dark #014034*/
 a:link {
-  color: #808080;
+  color: #737373;
+  text-decoration: underline;
 }
 
 /* visited link */
@@ -86,7 +87,7 @@ p {
   margin: 0;
   display: block;
   text-align: center;
-  color: #808080;
+  color: #737373;
   font-size: 1.2em;
   font-display: swap;
 }
@@ -155,12 +156,31 @@ em {
   background: #026773;
 }
 
+#header-research {
+  background-image: -webkit-gradient(linear,
+      left top,
+      right top,
+      from(rgba(54, 9, 109, 0.28)),
+      to(rgba(55, 213, 214, 0.23))),
+    -webkit-gradient(linear,
+      left top,
+      right top,
+      from(rgba(54, 156, 243, 0.28)),
+      to(rgba(245, 36, 36, 0.23))),
+    -webkit-gradient(linear,
+      left top,
+      right top,
+      from(rgba(15, 15, 15, 0.7)),
+      to(rgba(15, 15, 15, 0.7))),
+    url("../static/banner.webp");
+}
+
 ul.grey {
   margin-left: 0;
   padding-left: 40px;
   list-style-type: circle;
   list-style-position: outside;
-  color: #808080;
+  color: #737373;
   font-size: 1em;
 }
 
@@ -169,7 +189,7 @@ ol {
   padding-left: 40px;
   list-style-type: circle;
   list-style-position: outside;
-  color: #808080;
+  color: #737373;
   font-size: 1em;
 }
 
