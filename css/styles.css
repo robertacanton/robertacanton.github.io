@@ -369,13 +369,21 @@ ol {
   font-size: 0.8em;
 }
 
+.mobile {
+  display: none;
+}
+
 /* main css ends */
 /* footer settings for small devices */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .center-li {
     display: list-item;
     margin-top: 5px;
     padding: 5px;
+  }
+
+  .mobile {
+    display: block;
   }
 
   .header {
